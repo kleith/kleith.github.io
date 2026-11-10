@@ -29,7 +29,7 @@ Busco seguir creciendo en entornos de innovación, contribuyendo al desarrollo d
 - **2019 – 2021**  
   _Ingeniero de software en **Santander Tecnología**_
 
-  Desarrollo full stack de proyectos de intranet y back office para el banco Santander, con foco en la calidad de la experiencia de usuario y la arquitectura del software. Implementé interfaces bancarias en React siguiendo principios TDD, diseñé soluciones con Nest.js y desarrollé BFF para mejorar la integración entre capas.
+  Desarrollo full stack de proyectos de intranet y back office para el banco Santander, con foco en la calidad de la experiencia de usuario y la arquitectura del software. También asumí el rol de líder técnico, guiando decisiones de implementación, apoyando al equipo y asegurando la calidad de la solución. Implementé interfaces bancarias en React siguiendo principios TDD, diseñé soluciones con Nest.js y desarrollé BFF para mejorar la integración entre capas.
 
   **Stack principal:** React, Node.js, Nest.js y MongoDB.  
   **Enfoque:** React, arquitectura backend, TDD y proyectos bancarios.
@@ -37,7 +37,7 @@ Busco seguir creciendo en entornos de innovación, contribuyendo al desarrollo d
 - **2013 – 2019**  
   _Desarrollador Web Full Stack en **W3**_
 
-  Desarrollo de soluciones web y mobile adaptadas a las necesidades de cada proyecto, cubriendo frontend y backend con una visión full stack. Trabajé con MVC y diversas tecnologías, incluyendo CMS como Drupal y WordPress, CodeIgniter, despliegues en entornos Windows Server y optimización de soluciones para distintos contextos de negocio.
+  Desarrollo de soluciones web y mobile adaptadas a las necesidades de cada proyecto, cubriendo frontend y backend con una visión full stack. Además, asumí responsabilidades de liderazgo técnico, acompañando a otros desarrolladores, definiendo soluciones y apoyando la ejecución de proyectos con enfoque en calidad y escalabilidad. Trabajé con MVC y diversas tecnologías, incluyendo CMS como Drupal y WordPress, CodeIgniter, despliegues en entornos Windows Server y optimización de soluciones para distintos contextos de negocio.
 
   **Stack principal:** PHP, JavaScript, MySQL, MariaDB, GraphQL, Bootstrap, Backbone.js, Angular.js, Node.js, React.js, React Native, MongoDB, CSS3 y HTML5.  
   **Enfoque:** desarrollo full stack, CMS, integración de sistemas y soluciones multiplataforma.
@@ -46,7 +46,7 @@ Busco seguir creciendo en entornos de innovación, contribuyendo al desarrollo d
   _Desarrollador Web en **Gameloft**_
 
   Desarrollo de frontend y backend para sitios web y aplicaciones de Facebook, tanto en web como en mobile. Trabajé con patrones MVC e integré APIs de Instagram, Twitter, Facebook y Vine para crear experiencias interactivas y dinámicas.
-  
+
   **Stack principal:** PHP, SQL, jQuery, CSS3, HTML5 y SASS.
 
 - **2011**  
