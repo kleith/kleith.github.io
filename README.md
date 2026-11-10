@@ -2,41 +2,57 @@
 
 _Web developer_
 
-Soy un apasionado desarrollador web especializado en **React** con una sólida experiencia en la creación de aplicaciones web de alto rendimiento y experiencias de usuario excepcionales. Mi enfoque se centra en la construcción de interfaces de usuario interactivas y receptivas que no solo cumplan con los estándares técnicos, sino que también proporcionen una experiencia inigualable para los usuarios finales.  
-Mi objetivo es seguir contribuyendo al éxito de proyectos desafiantes y llevar mi experiencia en **React** y **Node** al siguiente nivel.
+Desarrollador web con más de 10 años de experiencia en la creación de soluciones digitales escalables, funcionales y centradas en la experiencia del usuario. Especializado en **React** y en el desarrollo de aplicaciones web modernas, con foco en la calidad técnica, el rendimiento y la mantenibilidad del código.
+
+Me apasiona diseñar interfaces intuitivas y eficientes y colaborar en proyectos desafiantes donde pueda aportar valor a través de la arquitectura, la implementación y la mejora continua.
+
+Busco seguir creciendo en entornos de innovación, contribuyendo al desarrollo de productos digitales con impacto real y fortaleciendo mi expertise en **React**, **Node.js** y la construcción de software de alto rendimiento.
 
 ## Experiencia Laboral
 
-- **2021 – Actual**  
+- **2024 – Actual**  
+  _Ingeniero de software en **Ueno**_
+
+  Desarrollo del home banking de un banco paraguayo, con enfoque en escalabilidad, mantenibilidad y experiencia de usuario. Participé en la implementación de micro frontends y BFF, junto con la construcción de interfaces con Material UI y la optimización del rendimiento del producto.
+
+  **Stack principal:** Next.js, Fastify y TypeScript.  
+  **Enfoque:** micro frontends, BFF y experiencia de usuario.
+
+- **2021 – 2023**  
   _Ingeniero de software en **Capicua**_
 
-  Programador fullstack para distintos proyectos de USA, trabajando con las últimas tecnologías de desarrollo; diseño y arquitectura del proyecto. Test unitarios con Jest.  
-  **Lenguajes de desarrollo:** React, Node.js y MongoDB con typescript. Trabajo con equipos internacionales.  
-  **Herramientas utilizadas:** AWS, Hasura y Jira.
+  Desarrollo full stack para distintos proyectos en EE. UU., participando en el diseño, la arquitectura y la implementación de soluciones con foco en calidad y mantenibilidad. Colaboré con equipos internacionales y aseguré la robustez del software mediante pruebas unitarias con Jest.
+
+  **Stack principal:** React, Node.js, MongoDB y TypeScript.  
+  **Enfoque:** arquitectura de software, desarrollo full stack y trabajo remoto internacional.
 
 - **2019 – 2021**  
   _Ingeniero de software en **Santander Tecnología**_
 
-  Programador fullstack para distintos proyectos de intranet y back office del banco Santander, desarrollo de la UI bancaria en React con TDD, diseño y arquitectura del proyecto y creación de BFF con Nest.js. Test unitarios con Jest y test de integración con cypress.  
-  **Lenguajes de desarrollo:** React, Node.js, Nest.js y MongoDB. Trabajo en equipos medianos y grandes.
+  Desarrollo full stack de proyectos de intranet y back office para el banco Santander, con foco en la calidad de la experiencia de usuario y la arquitectura del software. Implementé interfaces bancarias en React siguiendo principios TDD, diseñé soluciones con Nest.js y desarrollé BFF para mejorar la integración entre capas.
+
+  **Stack principal:** React, Node.js, Nest.js y MongoDB.  
+  **Enfoque:** React, arquitectura backend, TDD y proyectos bancarios.
 
 - **2013 – 2019**  
-  _Desarrollador Web fullstack en **W3**_
+  _Desarrollador Web Full Stack en **W3**_
 
-  Programador en frontend y backend de sitios web tanto en web como en mobile, trabajando con MVC utilizando las tecnologías óptimas para cada tipo de proyecto. Se utilizó CMS Drupal y Wordpress, Framework Codeigniter y se realizó configuraciones de servidor en Windows XP2003.  
-  **Lenguajes de desarrollo:** PHP, Javascript, MySQL, MariaDB, GraphQL, Boostrap, Backbone.js, Angular.js, Node.js, React.js, ReactNative, MongoDB, CSS3 y HTML5.  
-  **Herramientas utilizadas:** AWS, Azure, Jenkins, Jira y Bitbucket.
+  Desarrollo de soluciones web y mobile adaptadas a las necesidades de cada proyecto, cubriendo frontend y backend con una visión full stack. Trabajé con MVC y diversas tecnologías, incluyendo CMS como Drupal y WordPress, CodeIgniter, despliegues en entornos Windows Server y optimización de soluciones para distintos contextos de negocio.
+
+  **Stack principal:** PHP, JavaScript, MySQL, MariaDB, GraphQL, Bootstrap, Backbone.js, Angular.js, Node.js, React.js, React Native, MongoDB, CSS3 y HTML5.  
+  **Enfoque:** desarrollo full stack, CMS, integración de sistemas y soluciones multiplataforma.
 
 - **2012 – 2013**  
   _Desarrollador Web en **Gameloft**_
 
-  Programador en frontend y backend de sitios web y aplicaciones de facebook tanto en web como en mobile, trabajando con MVC utilizando las tecnologías óptimas para cada tipo de proyecto. Se utilizó e investigó APIs como la de Instagram, Twitter, Facebook y Vine.  
-  **Lenguajes de desarrollo:** PHP, SQL, jQuery, CSS3, HTML5 y SASS.
+  Desarrollo de frontend y backend para sitios web y aplicaciones de Facebook, tanto en web como en mobile. Trabajé con patrones MVC e integré APIs de Instagram, Twitter, Facebook y Vine para crear experiencias interactivas y dinámicas.
+  
+  **Stack principal:** PHP, SQL, jQuery, CSS3, HTML5 y SASS.
 
 - **2011**  
   _Desarrollador Web en **Kazuu**_
 
-  Programador en frontend y backend de páginas web (Kazuu), trabajando con MVC con CodeIgniter y Framework propio de Kazuu. Se utilizaron tecnologías nuevas e investigaciones en nuevas áreas.
+  Desarrollo de páginas web y soluciones de frontend/backend con MVC, utilizando CodeIgniter y un framework interno de la empresa. Participé en la implementación de nuevas tecnologías y en la investigación de enfoques para distintos desafíos de producto.
 
 ## Educación
 
@@ -52,33 +68,39 @@ Mi objetivo es seguir contribuyendo al éxito de proyectos desafiantes y llevar 
 
 ## Habilidades
 
-`Node` `React` `Typescript` `Angular.js` `Express` `Nest.js` `Jest` `Cypress` `MySQL` `PostgreSQL` `MongoDB` `PHP` `Git` `CSS3` `HTML5`
+### Stack principal
 
-- Desarrollo de Aplicaciones React
-- Diseño y Desarrollo de Interfaces de Usuario
-- Manejo de Estado Global (por ejemplo, Redux)
-- Optimización de Rendimiento
-- Integración de API y Servicios Web
-- Pruebas Unitarias y de Integración
-- Colaboración en Equipo
+`React` `Next.js` `Node.js` `TypeScript` `Fastify` `NestJS` `Express` `MongoDB` `MySQL` `PostgreSQL` `Git`
 
-## Extra curricular
+### Competencias
 
-- Curso de Diseño web de 1 año en el **IAC**.
-- Curso de NodeJS y MongoDB de 1 año en la **UTN**.
-- Curso de Android básico de 4 meses en **Educación IT**.
+`Micro Frontends` `BFF` `REST APIs` `GraphQL` `Redux` `Jest` `Cypress` `TDD` `AWS` `Azure` `CI/CD` `UX/UI` `CSS3` `HTML5`
+
+- Desarrollo de interfaces y aplicaciones con React
+- Diseño de experiencias de usuario con foco en usabilidad y rendimiento
+- Manejo de estado global y arquitectura de frontend
+- Optimización de rendimiento y escalabilidad
+- Integración de APIs y servicios web
+- Testing unitario e integración con enfoque en calidad
+- Trabajo colaborativo en equipos multidisciplinarios y remotos
+
+## Formación complementaria
+
+- Curso de Diseño Web de 1 año en el **IAC**.
+- Curso de Node.js y MongoDB de 1 año en la **UTN**.
+- Curso básico de Android de 4 meses en **Educación IT**.
 
 ## Idiomas
 
-- Español &#x2013; Nativo
-- Inglés &#x2013; B2
+- Español – Nativo
+- Inglés – B2
 
 ## Información personal
 
 - **E-mail:** [sergiomartinezt.89@gmail.com](mailto:sergiomartinezt.89@gmail.com)
 - **Teléfono:** [11-3409-4567](tel:+5491134094567)
 
-## Sociales
+## Redes
 
 [<img src="./public/linkedIn.svg" width="24" title="LinkedIn" />](https://www.linkedin.com/in/sergio-martinezt/)
 [<img src="./public/github.svg" width="24" title="Github page" />](https://kleith.github.io/)
