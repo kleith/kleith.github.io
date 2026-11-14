@@ -1,4 +1,4 @@
-import { DefaultTheme } from "styled-components"
+import { type DefaultTheme } from "styled-components";
 
 export const defaultTheme: DefaultTheme = {
   colors: {
@@ -13,4 +13,4 @@ export const defaultTheme: DefaultTheme = {
     ubuntu: '"Ubuntu Mono", sans-serif',
     spline: '"Spline Sans Mono", sans-serif',
   },
-}
+};

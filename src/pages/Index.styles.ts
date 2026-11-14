@@ -1,7 +1,9 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-import { shadow } from "../utils/css"
-import { device } from "../config/devices"
+import { shadow } from "@/utils/css";
+import { device } from "@/config/devices";
+
+const borderRadius = "15px";
 
 export const Scroller = styled.div`
   position: fixed;
@@ -19,18 +21,26 @@ export const Scroller = styled.div`
   @media print {
     display: none;
   }
-`
+`;
 
-export const Language = styled.div`
-  display: none;
-  // display: flex;
+export const Header = styled.div`
+  background-color: #fff;
+  border-radius: 0 0 15px 15px;
   flex-direction: column;
-  position: fixed;
+  margin: 00px auto 20px auto;
+  max-width: 1024px;
   z-index: 1;
 
-  button {
+  @media print {
+    display: none;
   }
-`
+`;
+
+export const HeaderContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+`;
 
 export const Container = styled.div`
   font-size: 14px;
@@ -63,9 +73,16 @@ export const Container = styled.div`
     grid-template-rows: auto;
     margin: 20px auto;
     max-width: calc(100vw - 60px);
+    @media print {
+      max-width: 100%;
+    }
   }
+
   @media ${device.desktop} {
     max-width: 1024px;
+    @media print {
+      max-width: 100%;
+    }
   }
 
   @media print {
@@ -80,9 +97,7 @@ export const Container = styled.div`
       font-size: 0.94em;
     }
   }
-`
-
-const borderRadius = "15px"
+`;
 
 export const Left = styled.div`
   background-color: ${({ theme }) => theme.colors.blue[0]};
@@ -107,7 +122,7 @@ export const Left = styled.div`
       font-size: 1.4em;
     }
   }
-`
+`;
 
 export const Image = styled.img`
   border-radius: 50%;
@@ -116,17 +131,12 @@ export const Image = styled.img`
   display: block;
   max-width: 70%;
   margin: 20px auto;
-`
+`;
 
 export const Right = styled.div`
   background-color: #fff;
   padding: 20px 30px;
   position: relative;
-
-  button {
-    position: absolute;
-    right: 20px;
-  }
 
   h2 {
     color: ${({ theme }) => theme.colors.blue[1]};
@@ -146,50 +156,96 @@ export const Right = styled.div`
       border-bottom: 1px dashed ${({ theme }) => theme.colors.blue[1]};
     }
   }
-`
+`;
 
 export const ButtonControl = styled.div`
-  display: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+
+  a,
+  button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    text-decoration: none;
+    transition:
+      background-color 150ms ease,
+      color 150ms ease;
+  }
+
+  a {
+    border: 1px solid ${({ theme }) => theme.colors.blue[0]};
+    background-color: #fff;
+    color: ${({ theme }) => theme.colors.blue[0]};
+
+    &:hover {
+      background-color: ${({ theme }) => theme.colors.secondary[2]};
+    }
+  }
+
+  button {
+    background-color: ${({ theme }) => theme.colors.blue[0]};
+    color: ${({ theme }) => theme.colors.secondary[0]};
+
+    &:hover {
+      background-color: ${({ theme }) => theme.colors.blue[1]};
+    }
+  }
+
+  a:focus-visible,
+  button:focus-visible {
+    outline: 2px solid ${({ theme }) => theme.colors.blue[1]};
+    outline-offset: 2px;
+  }
 
   @media print {
     display: none;
   }
-`
+`;
 
 export const Fullaname = styled.h2`
   margin: 20px 0px 0px;
   text-align: center;
   text-shadow: ${shadow(3, "#000")};
-`
+`;
 export const Work = styled.h3`
   color: ${({ theme }) => theme.colors.blue[3]};
   margin: 5px auto 30px !important;
   text-align: center;
   text-shadow: ${shadow(2, "#000")};
-`
+`;
 
 export const Divider = styled.hr`
   border-color: rgba(255, 255, 255, 0.2);
-`
+`;
 
 export const Information = styled.div`
   & ul {
     list-style: none;
-    maring: 0;
+    margin: 0;
     padding: 0;
   }
   & ul li {
+    display: flex;
+    align-items: center;
     svg {
       color: ${({ theme }) => theme.colors.blue[1]};
       margin-right: 9px;
       min-width: 15px;
     }
   }
-`
+`;
 
 export const Socials = styled.ul`
   & li {
-    display: inline-block;
+    display: inline-flex !important;
 
     a:hover svg {
       color: ${({ theme }) => theme.colors.blue[1]} !important;
@@ -217,11 +273,11 @@ export const Socials = styled.ul`
       text-decoration: underline;
     }
   }
-`
+`;
 
 export const ChipContainer = styled.div`
   margin: 0 -5px;
-`
+`;
 
 export const Chip = styled.div`
   background-color: ${({ theme }) => theme.colors.blue[3]};
@@ -244,7 +300,7 @@ export const Chip = styled.div`
     margin: 3px;
     padding: 4px 6px;
   }
-`
+`;
 
 export const Experience = styled.div`
   h4 {
@@ -260,8 +316,8 @@ export const Experience = styled.div`
   strong {
     font-weight: 600;
   }
-`
+`;
 
 export const Profile = styled.p`
   text-align: justify;
-`
+`;

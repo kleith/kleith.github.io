@@ -1,7 +1,7 @@
 {
-  "web_developer": "Web developer",
+  "web_developer": "Sr. Software Engineer",
   "personalInfo": "Personal information",
-  "firstName": "Firt name",
+  "firstName": "First name",
   "lastName": "Last name",
   "age": "Age",
   "years": "years",
@@ -15,6 +15,7 @@
   "id": "ID",
   "email": "E-mail",
   "skills": "Skills",
+  "competencies": "Competencies",
   "languages": "Languages",
   "english": "English \u2013 B2",
   "spanish": "Spanish \u2013 Native",
@@ -22,35 +23,42 @@
   "utn": "1-year NodeJS and MongoDB course at UTN.",
   "educationIt": "4-month basic Android course in IT Education.",
   "socials": "Socials",
+  "downloadCv": "Download CV",
+  "print": "Print",
   "profile": "Profile",
   "education": "Education",
   "experience": "Experience",
-  "aboutMe": "I'm a passionate <strong>React</strong> web developer with solid experience building high-performance web applications and exceptional user experiences. My focus is on building interactive and responsive user interfaces that not only meet technical standards but also provide an unmatched experience for end users.<br />My goal is to continue contributing to the success of challenging projects and take my experience in <strong>React</strong> and <strong>Node</strong> to the next level.",
+  "aboutMe": "Web developer with over 10 years of experience creating scalable, functional digital solutions centered on user experience. Specialized in <strong>React</strong> and modern web application development, with a focus on technical quality, performance, and code maintainability.<br />I am passionate about designing intuitive, efficient interfaces and collaborating on challenging projects where I can add value through architecture, implementation, and continuous improvement.<br />I am looking to continue growing in innovative environments, contributing to the development of digital products with real impact while strengthening my expertise in <strong>React</strong>, <strong>Node.js</strong>, and high-performance software development.",
   "jobs": [
     {
-      "date": "2021 \u2013 Current",
-      "position": "Software engineering in <strong>Capicua</strong>",
-      "description": "Fullstack programmer for different projects in the USA, working with the latest development technologies; project design and architecture. Unit testing with Jest.<br /><strong>Development languages:</strong> React, Node.js and MongoDB with typescript. I work with international teams.<br /><strong>Tools used:</strong> AWS, Hasura and Jira."
+      "date": "2024 \u2013 Present",
+      "position": "Software Engineer at <strong>Ueno</strong>",
+      "description": "Developed the online banking platform for a Paraguayan bank, focusing on scalability, maintainability, and user experience. Participated in implementing micro frontends and BFFs, building interfaces with Material UI, and optimizing product performance.",
+      "extra": "<strong>Main stack:</strong> Next.js, Fastify, and TypeScript.<br /><strong>Focus:</strong> micro frontends, BFFs, and user experience."
+    },
+    {
+      "date": "2021 \u2013 2023",
+      "position": "Software Engineer at <strong>Capicua</strong>",
+      "description": "Worked on full-stack development for various projects in the U.S., contributing to the design, architecture, and implementation of solutions with a focus on quality and maintainability. Collaborated with international teams and ensured software reliability through unit testing with Jest.",
+      "extra": "<strong>Main stack:</strong> React, Node.js, MongoDB, and TypeScript.<br /><strong>Focus:</strong> software architecture, full-stack development, and international remote work."
     },
     {
       "date": "2019 \u2013 2021",
-      "position": "Software engineering in <strong>Santander Tecnología</strong>",
-      "description": "Fullstack programmer for different intranet and back office projects at Santander Bank, development of the banking UI in React with TDD, design and architecture of the project and creation of BFF with Nest.js. Unit tests with Jest and integration test with Cypress.<br /><strong>Development languages:</strong> React, Node.js, Nest.js and MongoDB. I work in medium and large teams."
+      "position": "Software Engineer at <strong>Santander Tecnología</strong>",
+      "description": "Developed full-stack intranet and back-office projects for Santander, focusing on user experience quality and software architecture. Also took on the role of technical lead, guiding implementation decisions, supporting the team, and ensuring solution quality. Built banking interfaces in React using TDD principles, designed solutions with Nest.js, and developed BFFs to improve integration between layers.",
+      "extra": "<strong>Main stack:</strong> React, Node.js, Nest.js, and MongoDB.<br /><strong>Focus:</strong> React, backend architecture, TDD, and banking projects."
     },
     {
       "date": "2013 \u2013 2019",
-      "position": "Web Developer fullstack in <strong>W3</strong>",
-      "description": "Frontend and backend programmer for both web and mobile websites, working with MVC using the optimal technologies for each type of project. CMS Drupal and Wordpress, Codeigniter Framework were used and server configurations were carried out in Windows XP2003.<br /><strong>Development languages:</strong> PHP, Codeigniter, Laravel, MySQL, MariaDB, GraphQL, MongoDB, Backbone. js, Angular.js, Node.js, React.js, ReactNative, Boostrap, CSS3 and HTML5.<br /><strong>Tools used:</strong> AWS, Azure, Jenkins, Jira and Bitbucket."
+      "position": "Full-Stack Developer at <strong>W3</strong>",
+      "description": "Developed web and mobile solutions tailored to each project's needs, covering frontend and backend from a full-stack perspective. Also took on technical leadership responsibilities, mentoring other developers, defining solutions, and supporting project delivery with a focus on quality and scalability. Worked with MVC and a range of technologies, including CMS platforms such as Drupal and WordPress, CodeIgniter, deployments in Windows Server environments, and solution optimization for diverse business needs.",
+      "extra": "<strong>Main stack:</strong> PHP, JavaScript, MySQL, MariaDB, GraphQL, Bootstrap, Backbone.js, Angular.js, Node.js, React.js, React Native, MongoDB, CSS3, and HTML5.<br /><strong>Focus:</strong> full-stack development, CMS platforms, systems integration, and cross-platform solutions."
     },
     {
       "date": "2012 \u2013 2013",
-      "position": "Web Developer in <strong>Gameloft</strong>",
-      "description": "Frontend and backend programmer of Facebook websites and applications, both web and mobile, working with MVC using the optimal technologies for each type of project. APIs such as Instagram, Twitter, Facebook and Vine were used and investigated.<br /><strong>Development languages:</strong> PHP, SQL, jQuery, CSS3, HTML5 and SASS."
-    },
-    {
-      "date": "2011",
-      "position": "Web Developer in <strong>Kazuu</strong>",
-      "description": "Frontend and backend programmer of web pages (Kazuu), working with MVC with CodeIgniter and Kazuu's own Framework. New technologies and research in new areas were used."
+      "position": "Web Developer at <strong>Gameloft</strong>",
+      "description": "Developed frontend and backend for websites and Facebook applications across web and mobile. Worked with MVC patterns and integrated Instagram, Twitter, Facebook, and Vine APIs to create interactive, dynamic experiences.",
+      "extra": "<strong>Main stack:</strong> PHP, SQL, jQuery, CSS3, HTML5, and SASS."
     }
   ],
   "educations": [

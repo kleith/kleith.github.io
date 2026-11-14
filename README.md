@@ -35,7 +35,7 @@ Busco seguir creciendo en entornos de innovación, contribuyendo al desarrollo d
   **Enfoque:** React, arquitectura backend, TDD y proyectos bancarios.
 
 - **2013 – 2019**  
-  _Desarrollador Web Full Stack en **W3**_
+  _Desarrollador Full Stack en **W3**_
 
   Desarrollo de soluciones web y mobile adaptadas a las necesidades de cada proyecto, cubriendo frontend y backend con una visión full stack. Además, asumí responsabilidades de liderazgo técnico, acompañando a otros desarrolladores, definiendo soluciones y apoyando la ejecución de proyectos con enfoque en calidad y escalabilidad. Trabajé con MVC y diversas tecnologías, incluyendo CMS como Drupal y WordPress, CodeIgniter, despliegues en entornos Windows Server y optimización de soluciones para distintos contextos de negocio.
 

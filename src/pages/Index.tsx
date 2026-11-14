@@ -1,19 +1,18 @@
-import DOMPurify from "dompurify"
-import moment from "moment"
-import "moment/dist/locale/es"
-import { useLayoutEffect, useState } from "react"
-import { Trans, useTranslation } from "react-i18next"
-import { faLinkedin, faSquareGithub } from "@fortawesome/free-brands-svg-icons"
-import { faFloppyDisk } from "@fortawesome/free-regular-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { useLayoutEffect, useState } from "react";
+
 import {
-  faPhone,
-  faEnvelope,
-  faLocationDot,
-  faCakeCandles,
-  faIdCard,
-  faPrint,
-} from "@fortawesome/free-solid-svg-icons"
+  ArrowDownTrayIcon,
+  CakeIcon,
+  EnvelopeIcon,
+  IdentificationIcon,
+  MapPinIcon,
+  PhoneIcon,
+  PrinterIcon,
+} from "@heroicons/react/16/solid";
+
+import { format, parseISO } from "date-fns";
+import { es } from "date-fns/locale";
+import { Trans, useTranslation } from "react-i18next";
 
 import {
   ButtonControl,
@@ -23,85 +22,80 @@ import {
   Divider,
   Experience,
   Fullaname,
+  Header,
+  HeaderContainer,
   Image,
   Information,
-  Language,
   Left,
   Profile,
   Right,
   Scroller,
   Socials,
   Work,
-} from "./Index.styles"
-import photoProfile from "../assets/sergio_martinez.jpg"
-import { Description, Stack } from "../components/Stack"
-import { Button } from "../components/ui/Button/Button"
+} from "./Index.styles";
+import photoProfile from "@/assets/sergio_martinez.jpg";
+import { Description, Stack } from "@/components/Stack";
+import { Toggle } from "@/components/ui/Toggle/Toggle";
+import { diffYears } from "@/utils/date";
+import { GithubIcon, Linkedin } from "@coolicons/react/duotone";
+import { address, BIRTHDAY, competencies, FULL_NAME, skills } from "@/constants/personal";
 
-const skills = [
-  "Node",
-  "React",
-  "Typescript",
-  "Angular.js",
-  "Express",
-  "Nest.js",
-  "Jest",
-  "Cypress",
-  "MySQL",
-  "PostgreSQL",
-  "MongoDB",
-  "PHP",
-  "Git",
-  "CSS3",
-  "HTML5",
-]
+const today = new Date();
 
-const birthday = "1989-10-29"
-const today = moment()
-const years = today.diff(birthday, "years")
-
-export const Index = () => {
-  const { t, i18n } = useTranslation()
-  const [scrollWidth, setScrollWidth] = useState<number>(0)
-
-  moment.locale(i18n.language)
-
-  const handleEnglish = () => {
-    if (i18n.language !== "en") {
-      i18n.changeLanguage("en")
-    }
-  }
-  const handleSpanish = () => {
-    if (i18n.language !== "es") {
-      i18n.changeLanguage("es")
-    }
-  }
+export function Index() {
+  const { t, i18n } = useTranslation();
+  const [scrollWidth, setScrollWidth] = useState<number>(0);
+  const years = diffYears(parseISO(BIRTHDAY), today);
 
   const handleScroll = () => {
-    const { scrollHeight, clientHeight, scrollTop } = document.documentElement
-    const height = scrollHeight - clientHeight
+    const { scrollHeight, clientHeight, scrollTop } = document.documentElement;
+    const height = scrollHeight - clientHeight;
 
-    setScrollWidth((scrollTop / height) * 100)
-  }
+    setScrollWidth((scrollTop / height) * 100);
+  };
 
   useLayoutEffect(() => {
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll)
-    }
-  }, [])
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <>
       <Scroller style={{ width: `${scrollWidth}%` }} />
-      <Language>
-        <button onClick={handleEnglish}>En</button>
-        <button onClick={handleSpanish}>Es</button>
-      </Language>
+
+      <Header>
+        <HeaderContainer>
+          <div>
+            <Toggle
+              aria-label='Language'
+              options={[
+                { label: "English", value: "en" },
+                { label: "Español", value: "es" },
+              ]}
+              value={i18n.language}
+              onChange={(language) => i18n.changeLanguage(language)}
+            />
+          </div>
+          <ButtonControl>
+            <a href={`${import.meta.env.BASE_URL}cv.pdf`} download='Sergio-Martinez-CV.pdf'>
+              <ArrowDownTrayIcon width='16' height='16' />
+              {t("downloadCv")}
+            </a>
+            <button type='button' onClick={() => window.print()}>
+              <PrinterIcon width='16' height='16' />
+              {t("print")}
+            </button>
+          </ButtonControl>
+        </HeaderContainer>
+      </Header>
+
       <Container>
         <Left>
-          <Image src={photoProfile} title='Sergio Martínez' />
-          <Fullaname>Sergio Martínez</Fullaname>
+          <Image src={photoProfile} title={FULL_NAME} />
+          <Fullaname>{FULL_NAME}</Fullaname>
           <Work>{t("web_developer")}</Work>
 
           <Divider />
@@ -123,30 +117,30 @@ export const Index = () => {
             </ul>
             <ul>
               <li>
-                <FontAwesomeIcon icon={faCakeCandles} title={t("birthday")} />
-                {moment(birthday).format("LL")}
+                <CakeIcon title={t("birthday")} width='16' height='16' />
+                {format(parseISO(BIRTHDAY), "PPP", { locale: es })}
               </li>
               <li>
-                <FontAwesomeIcon icon={faLocationDot} title={t("address")} />
+                <MapPinIcon title={t("address")} width='16' height='16' />
                 <a
                   href='https://maps.app.goo.gl/xX6ML4kJC5hi6erp9'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  Delambre 4565 1A &#x2013; CABA
+                  {address.CITY}, {address.COUNTRY}
                 </a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faPhone} title={t("phone")} />
+                <PhoneIcon title={t("phone")} width='16' height='16' />
                 <a href='tel:+5491134094567'>11-3409-4567</a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faIdCard} title={t("id")} />
+                <IdentificationIcon title={t("id")} width='16' height='16' />
                 34.652.772
               </li>
               <li></li>
               <li>
-                <FontAwesomeIcon icon={faEnvelope} title={t("email")} />
+                <EnvelopeIcon title={t("email")} width='16' height='16' />
                 <a href='mailto:sergiomartinezt.89@gmail.com'>sergiomartinezt.89@gmail.com</a>
               </li>
             </ul>
@@ -156,17 +150,23 @@ export const Index = () => {
                 <Chip key={index}>{skill}</Chip>
               ))}
             </ChipContainer>
+            <h3>{t("competencies")}</h3>
+            <ChipContainer>
+              {competencies.map((competency, index) => (
+                <Chip key={index}>{competency}</Chip>
+              ))}
+            </ChipContainer>
             <h3>{t("languages")}</h3>
             <ul>
               <li>{t("english")}</li>
               <li>{t("spanish")}</li>
             </ul>
-            <h3>Extracurricular</h3>
+            {/* <h3>Extracurricular</h3>
             <ul>
-              <li dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(t("iac")) }} />
-              <li dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(t("utn")) }} />
-              <li dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(t("educationIt")) }} />
-            </ul>
+              <li>{t("iac")}</li>
+              <li>{t("utn")}</li>
+              <li>{t("educationIt")}</li>
+            </ul> */}
             <h3>{t("socials")}</h3>
             <Socials>
               <li>
@@ -177,7 +177,7 @@ export const Index = () => {
                   rel='noreferrer'
                   title='Github'
                 >
-                  <FontAwesomeIcon icon={faSquareGithub} />
+                  <GithubIcon />
                 </a>
               </li>
               <li>
@@ -188,28 +188,28 @@ export const Index = () => {
                   rel='noreferrer'
                   title='LinkedIn'
                 >
-                  <FontAwesomeIcon icon={faLinkedin} />
+                  <Linkedin />
                 </a>
               </li>
             </Socials>
           </Information>
         </Left>
         <Right>
-          <ButtonControl>
-            <Button icon={faFloppyDisk}>Descargar</Button>
-            <Button icon={faPrint}>Imprimir</Button>
-          </ButtonControl>
           <Experience>
             <Stack title={t("profile")}>
               <Profile>
-                <Trans t={t} i18nKey='aboutMe' />
+                <Trans i18nKey='aboutMe' />
               </Profile>
             </Stack>
 
             <Stack title={t("experience")}>
               {t("jobs", { returnObjects: true }).map((job, index) => (
-                <Description key={index} title={job.date} subtitle={job.position}>
-                  {job.description}
+                <Description
+                  key={index}
+                  title={job.date}
+                  subtitle={<Trans defaults={job.position} />}
+                >
+                  <Trans defaults={job.description} />
                 </Description>
               ))}
             </Stack>
@@ -225,5 +225,5 @@ export const Index = () => {
         </Right>
       </Container>
     </>
-  )
+  );
 }

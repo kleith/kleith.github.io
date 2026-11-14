@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 export const Normalize = createGlobalStyle`
   html {
@@ -86,6 +86,7 @@ export const Normalize = createGlobalStyle`
   [type="button"],
   [type="reset"],
   [type="submit"] {
+    appearance: button;
     -webkit-appearance: button;
   }
   button::-moz-focus-inner,
@@ -128,6 +129,7 @@ export const Normalize = createGlobalStyle`
     height: auto;
   }
   [type="search"] {
+    appearance: textfield;
     -webkit-appearance: textfield;
     outline-offset: -2px;
   }
@@ -155,12 +157,12 @@ export const Normalize = createGlobalStyle`
   ::-webkit-scrollbar {
     width: 10px;
   }
-  
+
   ::-webkit-scrollbar-track {
     background-color: #ebebeb;
     border-radius: 4px;
   }
-  
+
   ::-webkit-scrollbar-thumb {
     border-radius: 4px;
     background-color: #b5b5b5;
@@ -168,4 +170,4 @@ export const Normalize = createGlobalStyle`
       background-color: #838383;
     }
   }
-`
+`;
