@@ -10,6 +10,7 @@ export const Normalize = createGlobalStyle`
     color: ${({ theme }) => theme.colors.main[0]};
     margin: 0;
     font-family: ${({ theme }) => theme.font.spline};
+    font-size: 16px;
   }
   main {
     display: block;

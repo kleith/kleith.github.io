@@ -32,33 +32,38 @@
   "jobs": [
     {
       "date": "2024 \u2013 Present",
-      "position": "Software Engineer at <strong>Ueno</strong>",
+      "position": "Software Engineer \u2022 <strong>Ueno</strong>",
       "description": "Developed the online banking platform for a Paraguayan bank, focusing on scalability, maintainability, and user experience. Participated in implementing micro frontends and BFFs, building interfaces with Material UI, and optimizing product performance.",
-      "extra": "<strong>Main stack:</strong> Next.js, Fastify, and TypeScript.<br /><strong>Focus:</strong> micro frontends, BFFs, and user experience."
+      "stack": "<strong>Main stack:</strong> Next.js, Fastify, and TypeScript.",
+      "focus": "<strong>Focus:</strong> micro frontends, BFFs, and user experience."
     },
     {
       "date": "2021 \u2013 2023",
-      "position": "Software Engineer at <strong>Capicua</strong>",
+      "position": "Software Engineer \u2022 <strong>Capicua</strong>",
       "description": "Worked on full-stack development for various projects in the U.S., contributing to the design, architecture, and implementation of solutions with a focus on quality and maintainability. Collaborated with international teams and ensured software reliability through unit testing with Jest.",
-      "extra": "<strong>Main stack:</strong> React, Node.js, MongoDB, and TypeScript.<br /><strong>Focus:</strong> software architecture, full-stack development, and international remote work."
+      "stack": "<strong>Main stack:</strong> React, Node.js, MongoDB, and TypeScript.",
+      "focus": "<strong>Focus:</strong> software architecture, full-stack development, and international remote work."
     },
     {
       "date": "2019 \u2013 2021",
-      "position": "Software Engineer at <strong>Santander Tecnología</strong>",
+      "position": "Software Engineer \u2022 <strong>Santander Tecnología</strong>",
       "description": "Developed full-stack intranet and back-office projects for Santander, focusing on user experience quality and software architecture. Also took on the role of technical lead, guiding implementation decisions, supporting the team, and ensuring solution quality. Built banking interfaces in React using TDD principles, designed solutions with Nest.js, and developed BFFs to improve integration between layers.",
-      "extra": "<strong>Main stack:</strong> React, Node.js, Nest.js, and MongoDB.<br /><strong>Focus:</strong> React, backend architecture, TDD, and banking projects."
+      "stack": "<strong>Main stack:</strong> React, Node.js, Nest.js, and MongoDB.",
+      "focus": "<strong>Focus:</strong> React, backend architecture, TDD, and banking projects."
     },
     {
       "date": "2013 \u2013 2019",
-      "position": "Full-Stack Developer at <strong>W3</strong>",
+      "position": "Full-Stack Developer \u2022 <strong>W3</strong>",
       "description": "Developed web and mobile solutions tailored to each project's needs, covering frontend and backend from a full-stack perspective. Also took on technical leadership responsibilities, mentoring other developers, defining solutions, and supporting project delivery with a focus on quality and scalability. Worked with MVC and a range of technologies, including CMS platforms such as Drupal and WordPress, CodeIgniter, deployments in Windows Server environments, and solution optimization for diverse business needs.",
-      "extra": "<strong>Main stack:</strong> PHP, JavaScript, MySQL, MariaDB, GraphQL, Bootstrap, Backbone.js, Angular.js, Node.js, React.js, React Native, MongoDB, CSS3, and HTML5.<br /><strong>Focus:</strong> full-stack development, CMS platforms, systems integration, and cross-platform solutions."
+      "stack": "<strong>Main stack:</strong> PHP, JavaScript, MySQL, MariaDB, GraphQL, Bootstrap, Backbone.js, Angular.js, Node.js, React.js, React Native, MongoDB, CSS3, and HTML5.",
+      "focus": "<strong>Focus:</strong> full-stack development, CMS platforms, systems integration, and cross-platform solutions."
     },
     {
       "date": "2012 \u2013 2013",
-      "position": "Web Developer at <strong>Gameloft</strong>",
+      "position": "Web Developer \u2022 <strong>Gameloft</strong>",
       "description": "Developed frontend and backend for websites and Facebook applications across web and mobile. Worked with MVC patterns and integrated Instagram, Twitter, Facebook, and Vine APIs to create interactive, dynamic experiences.",
-      "extra": "<strong>Main stack:</strong> PHP, SQL, jQuery, CSS3, HTML5, and SASS."
+      "stack": "<strong>Main stack:</strong> PHP, SQL, jQuery, CSS3, HTML5, and SASS.",
+      "focus": "<strong>Focus:</strong> web development, social media integration, and user experience."
     }
   ],
   "educations": [
