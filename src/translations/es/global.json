@@ -31,7 +31,7 @@
   "aboutMe": "Desarrollador web con más de 10 años de experiencia en la creación de soluciones digitales escalables, funcionales y centradas en la experiencia del usuario. Especializado en <strong>React</strong> y en el desarrollo de aplicaciones web modernas, con foco en la calidad técnica, el rendimiento y la mantenibilidad del código.<br />Me apasiona diseñar interfaces intuitivas y eficientes y colaborar en proyectos desafiantes donde pueda aportar valor a través de la arquitectura, la implementación y la mejora continua.<br />Busco seguir creciendo en entornos de innovación, contribuyendo al desarrollo de productos digitales con impacto real y fortaleciendo mi expertise en <strong>React</strong>, <strong>Node.js</strong> y la construcción de software de alto rendimiento.",
   "jobs": [
     {
-      "date": "2024 \u2013 Actual",
+      "date": "2024 \u2013 Presente",
       "position": "Ingeniero de software \u2022 <strong>Ueno</strong>",
       "description": "Desarrollo del home banking de un banco paraguayo, con enfoque en escalabilidad, mantenibilidad y experiencia de usuario. Participé en la implementación de micro frontends y BFF, junto con la construcción de interfaces con Material UI y la optimización del rendimiento del producto.",
       "stack": "<strong>Stack principal:</strong> Next.js, Fastify y TypeScript.",

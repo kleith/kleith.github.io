@@ -10,7 +10,7 @@ Busco seguir creciendo en entornos de innovación, contribuyendo al desarrollo d
 
 ## Experiencia Laboral
 
-- **2024 – Actual**  
+- **2024 – Presente**  
   _Ingeniero de software en **Ueno**_
 
   Desarrollo del home banking de un banco paraguayo, con enfoque en escalabilidad, mantenibilidad y experiencia de usuario. Participé en la implementación de micro frontends y BFF, junto con la construcción de interfaces con Material UI y la optimización del rendimiento del producto.
