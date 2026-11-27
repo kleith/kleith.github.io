@@ -41,10 +41,6 @@ export const Container = styled.div`
     background-color: ${({ theme }) => theme.colors.blue[1]};
   }
 
-  @page {
-    size: A4 portrait;
-  }
-
   @media ${device.tablet} {
     display: grid;
     grid-template-columns: 310px auto;
@@ -64,6 +60,11 @@ export const Container = styled.div`
   }
 
   @media print {
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+
     background-color: ${({ theme }) => theme.colors.blue[0]};
     -webkit-print-color-adjust: exact;
     color-adjust: exact;
